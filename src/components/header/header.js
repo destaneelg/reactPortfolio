@@ -19,7 +19,7 @@ export default class About extends Component {
   <div className="row banner">
     <div className="banner-text">
       <h1 className="responsive-headline">I'm Destanee Glenn.</h1>
-      <h3>I'm an Austin, TX based  <a className="smoothscroll" href="#portfolio" > fullstack developer </a>, that maintains 10 corprate websites. Let's <a className="smoothscroll" href="#about">start scrolling </a>
+      <h3>I'm an Austin, TX based  <a className="smoothscroll" href="#portfolio" > fullstack developer </a>, that maintains 10 corporate websites. Let's <a className="smoothscroll" href="#about">start scrolling </a>
         and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
       <hr />
       <ul className="social">

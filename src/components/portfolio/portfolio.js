@@ -17,8 +17,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/coffee.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Coffee</h5>
-                  <p>Illustrration</p>
+                  <h5>Original Portfolio</h5>
+                  <p>Pre-React Portfolio</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -31,8 +31,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/console.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Console</h5>
-                  <p>Web Development</p>
+                  <h5>BurgerBars</h5>
+                  <p>Express HandleBars activity</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -45,8 +45,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/judah.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Judah</h5>
-                  <p>Webdesign</p>
+                  <h5>Mars Vacation Home</h5>
+                  <p>First frontend web app</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -59,8 +59,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/into-the-light.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Into The Light</h5>
-                  <p>Photography</p>
+                  <h5>Accessibility Exercise</h5>
+                  <p>Breaking down front end code</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -73,8 +73,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/farmerboy.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Farmer Boy</h5>
-                  <p>Branding</p>
+                  <h5>User Directiory</h5>
+                  <p>Full Stack web app</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -87,8 +87,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/girl.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Girl</h5>
-                  <p>Photography</p>
+                  <h5>Employee Directory</h5>
+                  <p>CMS</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -101,8 +101,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/origami.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Origami</h5>
-                  <p>Illustrration</p>
+                  <h5>Listly</h5>
+                  <p>Full stack web app</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>
@@ -115,8 +115,8 @@ export default class Portfolio extends Component {
               <img alt="" src="images/portfolio/retrocam.jpg" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>Retrocam</h5>
-                  <p>Web Development</p>
+                  <h5>workoutApp</h5>
+                  <p>App to keep track of workouts</p>
                 </div>
               </div>
               <div className="link-icon"><i className="icon-plus" /></div>

@@ -19,6 +19,7 @@ THEN A corresponding tab loads
 ## Obstacles faced during development
 ```
 I had issues getting it deployed to github pages. 
+Anytime the portfolio section is updated the template breaks.
 ```
 ## Instructions for future development
 ```

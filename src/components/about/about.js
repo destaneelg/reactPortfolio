@@ -7,7 +7,7 @@ export default class About extends Component {
 <section id="about">
   <div className="row">
     <div className="three columns">
-      <img className="profile-pic" src="images/profilepic.jpeg" alt="photo of Destanee Glenn" />
+      <img className="profile-pic" src="./images/profilepic.jpeg" alt="photo of Destanee Glenn" />
     </div>
     <div className="nine columns main-col">
       <h2>About Me</h2>
@@ -22,12 +22,12 @@ export default class About extends Component {
              United States
             </span><br />
             <span>(737)224-1230</span><br />
-            <span>destaneelg@github.com</span>
+            <span>destanee.glenn@gmail.com</span>
           </p>
         </div>
         <div className="columns download">
           <p>
-            <a href="./././public/images/Resume.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
+            <a href="./images/Resume.pdf" target="_blank" download="Resume.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
           </p>
         </div>
       </div> {/* end row */}

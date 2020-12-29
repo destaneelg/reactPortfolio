@@ -12,8 +12,8 @@ export default class Footer extends Component {
     <div class="twelve columns">
 
        <ul class="social-links">
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/destaneelg/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/destaneelg"><i class="fa fa-github"></i></a></li>
        
        </ul>
 

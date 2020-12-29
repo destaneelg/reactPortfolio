@@ -1,231 +1,96 @@
 import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
-    let resumeData = this.props.resumeData;
     return (
-      <React.Fragment>
-      {
-<section id="portfolio">
-  <div className="row">
-    <div className="twelve columns collapsed">
-      <h1>Check Out Some of My Works.</h1>
-      {/* portfolio-wrapper */}
-      <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-01" title>
-              <img alt="" src="images/portfolio/coffee.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>Original Portfolio</h5>
-                  <p>Pre-React Portfolio</p>
-                </div>
+      <React.Fragment> {
+              <div className="container"> 
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <a className="navbar-brand" href="#">Destanee Glenn</a>
+                  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon" />
+                  </button>
+                  <div className="collapse navbar-collapse" id="navbarColor02">
+                    <ul className="navbar-nav mr-auto">
+                      <li className="nav-item">
+                        <a className="nav-link" href="index.html">About</a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" href="portfolio.html">Portfolio</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                <div className="row">
+                  <div className="col-6">
+                    <div id="project1">
+                      <img src="Assets/workingapplication.png" alt="Mars Rover camera select and weather data screenshot. " width={250} height={200} />
+                      <h3>Mars Vacation Homes</h3>
+                      <div>      
+                        <a href="https://github.com/josh-wilson6289/mars-vacation-homes" target="_blank" rel="noopener noreferrer"> Repository</a>
+                      </div>
+                      <div>      
+                        <a href="https://josh-wilson6289.github.io/mars-vacation-homes/" target="_blank" rel="noopener noreferrer">Deployed Application </a>
+                      </div>
+                    </div>
+                    <div id="project2">
+                      <img src="Assets/Accessibilityexercise.png" alt="Grey background with 2 stacked images with a mountain silohette in the middle" width={250} height={200} />
+                      <h3>Accessibility Exercise</h3>
+                      <div>      
+                        <a href="https://github.com/destaneelg/homework1.github.io" target="_blank" rel="noopener noreferrer"> Repository</a>
+                      </div>
+                      <div>      
+                        <a href="https://destaneelg.github.io/homework1.github.io/" target="_blank" rel="noopener noreferrer">Deployed Application </a>
+                      </div>
+                    </div>
+                    <div id="project4">
+                      <img src="Assets/placeholder.jpg" alt="Grey background with 2 stacked images with a mountain silohette in the middle" width={250} height={200} />
+                      <h3>burgerBars </h3>
+                      <div>      
+                        <a href="https://burgerbars.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Repository</a>
+                      </div>
+                      <div>      
+                        <a href="https://github.com/destaneelg/burgerBars" target="_blank" rel="noopener noreferrer">Deployed Application </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div id="project3">
+                      <img src="Assets/passwordgenerator.png" alt="Grey background with 2 stacked images with a mountain silohette in the middle" width={250} height={200} />
+                      <h3>Password Generator</h3>
+                      <div>      
+                        <a href="https://github.com/destaneelg/passwordGenerator" target="_blank" rel="noopener noreferrer"> Repository</a>
+                      </div>
+                      <div>      
+                        <a href="https://destaneelg.github.io/passwordGenerator/" target="_blank" rel="noopener noreferrer">Deployed Application </a>
+                      </div>
+                    </div>
+                    <div id="project5">
+                      <img src="Assets/placeholder.jpg" alt="Grey background with 2 stacked images with a mountain silohette in the middle" width={250} height={200} />
+                      <h3>Coming Soon!</h3>
+                      <div>      
+                        <a href target="_blank" rel="noopener noreferrer"> Repository</a>
+                      </div>
+                      <div>      
+                        <a href target="_blank" rel="noopener noreferrer">Deployed Application </a>
+                      </div>
+                    </div>
+                    <div id="project6">
+                      <img src="Assets/placeholder.jpg" alt="Grey background with 2 stacked images with a mountain silohette in the middle" width={250} height={200} />
+                      <h3>Coming Soon!</h3>
+                      <div>      
+                        <a href target="_blank" rel="noopener noreferrer"> Repository</a>
+                      </div>
+                      <div>      
+                        <a href target="_blank" rel="noopener noreferrer">Deployed Application </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>   
               </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-02" title>
-              <img alt="" src="images/portfolio/console.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>BurgerBars</h5>
-                  <p>Express HandleBars activity</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-03" title>
-              <img alt="" src="images/portfolio/judah.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>Mars Vacation Home</h5>
-                  <p>First frontend web app</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-04" title>
-              <img alt="" src="images/portfolio/into-the-light.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>Accessibility Exercise</h5>
-                  <p>Breaking down front end code</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-05" title>
-              <img alt="" src="images/portfolio/farmerboy.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>User Directiory</h5>
-                  <p>Full Stack web app</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-06" title>
-              <img alt="" src="images/portfolio/girl.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>Employee Directory</h5>
-                  <p>CMS</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-07" title>
-              <img alt="" src="images/portfolio/origami.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>Listly</h5>
-                  <p>Full stack web app</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div> {/* item end */}
-        <div className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href="#modal-08" title>
-              <img alt="" src="images/portfolio/retrocam.jpg" />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>workoutApp</h5>
-                  <p>App to keep track of workouts</p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
-        </div>  {/* item end */}
-      </div> {/* portfolio-wrapper end */}
-    </div> {/* twelve columns end */}
-    {/* Modal Popup
-	      --------------------------------------------------------------- */}
-    <div id="modal-01" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
-      <div className="description-box">
-        <h4>Coffee Cup</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-01 End */}
-    <div id="modal-02" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-      <div className="description-box">
-        <h4>Console</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-02 End */}
-    <div id="modal-03" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-      <div className="description-box">
-        <h4>Judah</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-03 End */}
-    <div id="modal-04" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-      <div className="description-box">
-        <h4>Into the Light</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Photography</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-04 End */}
-    <div id="modal-05" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-      <div className="description-box">
-        <h4>Farmer Boy</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-05 End */}
-    <div id="modal-06" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-      <div className="description-box">
-        <h4>Girl</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Photography</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-06 End */}
-    <div id="modal-07" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-      <div className="description-box">
-        <h4>Origami</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-07 End */}
-    <div id="modal-08" className="popup-modal mfp-hide">
-      <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-      <div className="description-box">
-        <h4>Retrocam</h4>
-        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-        <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-      </div>
-      <div className="link-box">
-        <a href="http://www.behance.net">Details</a>
-        <a className="popup-modal-dismiss">Close</a>
-      </div>
-    </div>{/* modal-01 End */}
-  </div> {/* row End */}
-</section>
-}
+          }
       <header id="portfolio">
         ....
       </header>
